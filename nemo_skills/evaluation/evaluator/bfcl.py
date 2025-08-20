@@ -26,7 +26,7 @@ LOG = logging.getLogger(get_logger_name(__file__))
 
 @nested_dataclass(kw_only=True)
 class BFCLEvaluatorConfig:
-    model: str = "o3-mini-2025-01-31-FC"  # Uses the same eval as Llama-Nemotron
+    model: str = "o3-2025-04-16-FC"
     timeout: int = 300
 
 
